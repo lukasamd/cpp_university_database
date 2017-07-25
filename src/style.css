@@ -1,0 +1,53 @@
+body {
+  width: 800px;
+  margin: 20px auto;
+  border: 1px solid #000;
+  border-radius: 15px;
+  padding: 30px;
+}
+
+h1, h2, h3 {
+  font-size: 28px;
+  margin: auto;
+  text-align: center;
+}
+
+h2 {
+  font-size: 22px;
+  margin: 10px auto 10px auto;
+}
+
+h3 {
+  font-size: 18px;
+  margin: 8px auto 20px auto;
+}
+
+table {
+  border: 1px;
+  background-color: #222;
+  width: 90%;
+  margin: auto;
+}
+
+th {
+  color: #CCC;
+  padding: 4px 0px;
+  background-color: #444;
+}
+
+.row1, .row2 {
+  color: #222;
+}
+
+.row1 > td, 
+.row2 > td {
+  padding: 6px;
+}
+
+.row1 {
+  background-color: #999;
+}
+
+.row2 {
+  background-color: #BBB;
+}
